@@ -1,0 +1,137 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container-margin {
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+.linksClass {
+  color: white !important;
+  font-size: 1rem !important;
+}
+.linksClass:hover {
+  color: white !important;
+  text-decoration: none;
+}
+.banner {
+  height: 100vh;
+  background-color: #782849;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+.dog-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.dogText {
+  color: black;
+  font-weight: 600;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+.banner-title {
+  font-size: 4rem;
+  text-align: center;
+}
+.banner-subtitle {
+  text-align: center;
+  font-size: 3rem;
+}
+.social-div {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  margin-top: 16px;
+}
+.social-icons {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.display-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.linkedInClass {
+  width: 54px;
+  padding-left: 13px !important;
+}
+.displayText {
+  color: black;
+}
+.skills-card {
+  margin-top: 2rem;
+}
+.skills-card-body {
+  min-height: 340px;
+  padding: 20px;
+}
+.skills-icon {
+  width: 60px;
+}
+.skills-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.heading {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.journey-class {
+  width: inherit;
+}
+.project-class {
+  margin-top: 2rem;
+}
+.project-col {
+  align-content: center;
+}
+.projects-image {
+  width: 100%;
+  margin: 0px 20px;
+}
+.width100 {
+  width: 100%;
+}
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photography-text {
+  margin: 0px 16px 0px 0px;
+}
+.margin-top-16 {
+  margin-top: 16px;
+}
+.footer {
+  background-color: #782849;
+  height: 50px;
+  margin-top: 4rem;
+}
+.hobbies-section {
+  margin-top: 2rem;
+}
+.bold {
+  font-weight: 600;
+}
+.down-icon {
+  margin-top: 20px;
+}
