@@ -1,95 +1,137 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
-
+.container-margin {
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+.linksClass {
+  color: white !important;
+  font-size: 1rem !important;
+}
+.linksClass:hover {
+  color: white !important;
+  text-decoration: none;
+}
 .banner {
-    background: url('./assets/banner.jpg') no-repeat center center/cover;
-    color: white;
-    padding: 100px 0;
+  height: 100vh;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+.dog-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.dogText {
+  color: black;
+  font-weight: 600;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
 .banner-title {
-    font-size: 3rem;
-    margin-bottom: 20px;
+  font-size: 4rem;
+  text-align: center;
 }
-
-.social-icons a {
-    margin: 0 10px;
-    color: white;
-    font-size: 1.5rem;
+.banner-subtitle {
+  text-align: center;
+  font-size: 3rem;
 }
-
-.nav-links a {
-    margin: 0 15px;
-    color: white;
-    font-size: 1rem;
-    text-decoration: none;
+.social-div {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  margin-top: 16px;
 }
-
-.scroll-down {
-    margin-top: 20px;
-    color: white;
-    font-size: 2rem;
+.social-icons {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50%;
 }
-
-.container {
-    padding: 50px 0;
-}
-
-.about-content,
-.skills-content,
-.education-content,
-.project-content,
-.dog-section {
-    margin-bottom: 50px;
-}
-
 .display-picture {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
-
-.dog-section {
-    text-align: center;
+.linkedInClass {
+  width: 54px;
+  padding-left: 13px !important;
 }
-
-.skills-content img,
-.education-content img {
-    width: 100%;
-    height: auto;
-    margin: 10px 0;
+.displayText {
+  color: black;
 }
-
-.project-content img {
-    width: 100%;
-    height: auto;
+.skills-card {
+  margin-top: 2rem;
 }
-
-footer {
-    background-color: #222;
-    color: white;
-    padding: 20px 0;
+.skills-card-body {
+  min-height: 340px;
+  padding: 20px;
 }
-
-@media (max-width: 768px) {
-    .banner-title {
-        font-size: 2rem;
-    }
-
-    .social-icons a {
-        font-size: 1.2rem;
-    }
-
-    .nav-links a {
-        font-size: 0.8rem;
-    }
-
-    .scroll-down {
-        font-size: 1.5rem;
-    }
+.skills-icon {
+  width: 60px;
+}
+.skills-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.heading {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.journey-class {
+  width: inherit;
+}
+.project-class {
+  margin-top: 2rem;
+}
+.project-col {
+  align-content: center;
+}
+.projects-image {
+  width: 100%;
+  margin: 0px 20px;
+}
+.width100 {
+  width: 100%;
+}
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photography-text {
+  margin: 0px 16px 0px 0px;
+}
+.margin-top-16 {
+  margin-top: 16px;
+}
+.footer {
+  background-color: #333333;
+  height: 50px;
+  margin-top: 4rem;
+}
+.hobbies-section {
+  margin-top: 2rem;
+}
+.bold {
+  font-weight: 600;
+}
+.down-icon {
+  margin-top: 20px;
 }
